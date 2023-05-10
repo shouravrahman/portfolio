@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
@@ -38,19 +39,32 @@ const Navbar = () => {
 			{/* social */}
 			<nav className='flex items-center justify-between flex-wrap'>
 				<Link href='/' target={"blank"}>
-					T
+					<img
+						className='w-[50px] h-[50px]'
+						src='/images/social/facebook-logo.png'
+						alt=''
+					/>
 				</Link>
 				<Link href='/' target={"blank"}>
-					T
+					<img
+						className='w-[50px] h-[50px]'
+						src='/images/social/twitter-logo.png'
+						alt=''
+					/>
 				</Link>
 				<Link href='/' target={"blank"}>
-					T
+					<img
+						className='w-[50px] h-[50px]'
+						src='/images/social/github.png'
+						alt=''
+					/>
 				</Link>
 				<Link href='/' target={"blank"}>
-					T
-				</Link>
-				<Link href='/' target={"blank"}>
-					T
+					<img
+						className='w-[50px] h-[50px]'
+						src='/images/social/linkedin-logo.png'
+						alt=''
+					/>
 				</Link>
 			</nav>
 		</header>
