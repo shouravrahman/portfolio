@@ -15,6 +15,10 @@ module.exports = {
 				primary: "#262626",
 				accent: "#ccad8f",
 			},
+			backgroundImage: {
+				radialLight:
+					"repeating-radial-gradient(black, transparent, #262626 10%);",
+			},
 		},
 	},
 	plugins: [],
